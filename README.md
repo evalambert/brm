@@ -2,6 +2,10 @@
 
 A website for the fictionnal cinema Brussels Rooftop Movies.
 
+## 🔗 Link
+
+[https://https://brm.lou-va.com/](https://brm.lou-va.com/)
+
 ## Getting Started
 
 The client and server run independently. The client connects to the backend via localhost. You can edit the server's URL in `/client/.env`.
@@ -13,11 +17,13 @@ Ensure you have `Node.js` and `npm` installed on your machine to run this projec
 ### 💾 Installation
 
 #### 1. Clone the Repository
+
 ```sh
 git clone git@github.com:louis-va/mern-template.git
 ```
 
 #### 2. Install client & server dependencies
+
 ```sh
 cd client/
 npm install
@@ -29,11 +35,13 @@ npm install
 #### 3. Add `.env` variables
 
 ##### `client/.env`
+
 ```ini
 VITE_API_URL='' # URL of the server. By default: http://localhost:8000
 ```
 
 ##### `server/.env`
+
 ```ini
 PORT= # Port the server is listening at. By default 8000
 DATABASE_URL='' # URL of your mongo database
@@ -46,6 +54,7 @@ RESEND_API_KEY='' # Resend API Key. https://resend.com/api-keys
 ### 🚀 Execution
 
 #### Run client & server
+
 ```sh
 cd client/
 npm run dev
@@ -57,6 +66,7 @@ npm run dev
 ### 🚚 Production
 
 #### Build and Run Client & Server
+
 ```sh
 cd client/
 npm run build
@@ -76,9 +86,11 @@ docker compose up -d
 ```
 
 #### Deployment
+
 During deployment, in `/client/.env.production`, set `VITE_API_URL` as your database URL. Additionally, configure the `allowedOrigins` in `/server/index.ts` to allow your client's URL to connect to the server.
 
 ### 🌐 Ports
+
 **Client**: http://localhost:3000 <br>
 **Server**: http://localhost:8000
 
