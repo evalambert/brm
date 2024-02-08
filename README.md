@@ -95,3 +95,12 @@ During deployment, in `/client/.env.production`, set `VITE_API_URL` as your data
 **Server**: http://localhost:8000
 
 You can modify the port values in `/server/.env` and `/client/vite.config.ts`. If you change the client's port, remember to update `allowedOrigins` in `/server/index.ts` with the new port.
+
+## 👀 Model
+
+![Screen shot version desktop header](client/src/assets/img/maquette-1.jpg)
+![Screen shot version desktop liste films](client/src/assets/img/maquette-2.jpg)
+![Screen shot version desktop authentification](client/src/assets/img/maquette-3.jpg)
+![Screen shot version page film ](client/src/assets/img/maquette-4.jpg)
+![Screen shot exemples desktop reservation](client/src/assets/img/maquette-5.jpg)
+![Screen shot exemples desktop footer](client/src/assets/img/maquette-6.jpg)
