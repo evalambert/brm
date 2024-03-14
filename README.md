@@ -1,6 +1,6 @@
-# Brussels Rooftop Movie
+# Brussels Rooftop Movie 🍿👀🎫
 
-A website for the fictionnal cinema Brussels Rooftop Movies.
+A website for the fictionnal cinema Brussels Rooftop Movies 🍿
 
 ## 🔗 Link
 
